@@ -152,7 +152,9 @@ key: "d0ef2b8a6c"
 
 
 `@script`
+The word “fit” has the highest association with “perfect”,  “size”, "loos", "well", and "usual".
 
+Further text mining w
 
 
 ---
