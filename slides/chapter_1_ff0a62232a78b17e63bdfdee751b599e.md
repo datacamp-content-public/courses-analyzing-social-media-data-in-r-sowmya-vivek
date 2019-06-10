@@ -149,6 +149,24 @@ key: "d0ef2b8a6c"
 
 
 ---
+## Summary
+
+```yaml
+type: "FullSlide"
+key: "9ebecb765b"
+```
+
+`@part1`
+Concepts to understand words that frequently occur together
+- Word distances / proximity & clustering to plot word sets that are close to each other (cluster dendrogram) {{1}}
+- Correlation between word pairs and mapping the correlations in a scatter plot (word association plot) {{2}}
+
+
+`@script`
+
+
+
+---
 ## Let's practice!
 
 ```yaml
