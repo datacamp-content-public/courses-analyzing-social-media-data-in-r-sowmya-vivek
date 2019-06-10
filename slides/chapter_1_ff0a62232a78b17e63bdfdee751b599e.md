@@ -132,6 +132,23 @@ theme(axis.text.y = element_text(size=10))
 
 
 ---
+## Word Association Plot - Interpretation
+
+```yaml
+type: "FullSlide"
+key: "d0ef2b8a6c"
+```
+
+`@part1`
+![word_assoc.png](https://assets.datacamp.com/production/repositories/5093/datasets/db3d0e40b7378ac820a15ac0f606bc6361a177d5/word_assoc.png)
+- “fit” - most associated with “perfect”,“size”, “loos”
+
+
+`@script`
+
+
+
+---
 ## Let's practice!
 
 ```yaml
