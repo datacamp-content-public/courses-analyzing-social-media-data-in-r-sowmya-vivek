@@ -17,7 +17,7 @@ title: Data Science Coach
 
 
 `@script`
-Now that we have a DTM and simple Word Cloud and frequency plots to visualize the most frequent words, we will proceed to more advanced visualizations to understand words that frequently combine together.
+In the previous lesson, we learned how to build a Word Cloud and frequency plot to visualize most frequent words. In this lesson, we will proceed to more advanced visualizations to understand words that frequently occur together.
 
 
 ---
