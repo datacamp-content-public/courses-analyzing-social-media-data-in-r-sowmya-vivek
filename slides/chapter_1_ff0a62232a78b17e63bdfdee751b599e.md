@@ -29,11 +29,11 @@ key: "278bb36cff"
 ```
 
 `@part1`
-- Cluster Dendrograms are useful for visualizing Word clusters
-- Word clustering identifies word groups occurring together 
-- Based on word distances
-- Groups words into related clusters
-- Dimension reduction technique
+- Cluster Dendrograms are useful for visualizing Word clusters {{1}}
+- Word clustering identifies word groups occurring together {{2}}
+- Based on word distances {{3}}
+- Groups words into related clusters {{4}}
+- Dimension reduction technique {{5}}
 
 
 `@script`
