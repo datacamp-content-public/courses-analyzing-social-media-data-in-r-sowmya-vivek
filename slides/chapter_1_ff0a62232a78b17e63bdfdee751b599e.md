@@ -54,7 +54,8 @@ library(tm)
 dtm2 <- removeSparseTerms(dtm, sparse = 0.9)
 
 #Build hierarchical cluster
-hc <- hclust(d = dist(dtm2, method = "euclidean"), method = "complete")
+hc <- hclust(d = dist(dtm2, method = "euclidean"), 
+		method = "complete")
 
 #Plot cluster dendrogram
 plot(hc)
