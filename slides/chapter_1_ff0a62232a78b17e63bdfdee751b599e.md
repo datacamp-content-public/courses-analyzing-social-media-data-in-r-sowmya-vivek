@@ -103,6 +103,35 @@ key: "2686e115d2"
 
 
 ---
+## Coding Word Association Plot
+
+```yaml
+type: "FullSlide"
+key: "6850d39775"
+```
+
+`@part1`
+```
+#Create associations
+associations <- findAssocs(dtm, "fit", 0.05)
+
+#Create associations_df and choose relevant columns
+associations_df <- list_vect2df(associations)[, 2:3]
+
+#Plot the associations_df values ggplot(associations_df, aes(y = associations_df[, 1])) + 
+geom_point(aes(x = associations_df[, 2]), 
+data = associations_df, size = 3) +
+ggtitle("Word Associations to 'fit'") +
+theme_gdocs() +
+theme(axis.text.y = element_text(size=10))
+```
+
+
+`@script`
+
+
+
+---
 ## Let's practice!
 
 ```yaml
