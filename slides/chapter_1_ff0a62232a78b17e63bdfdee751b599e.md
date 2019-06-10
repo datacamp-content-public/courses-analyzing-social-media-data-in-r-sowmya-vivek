@@ -82,7 +82,8 @@ key: "8098dba05a"
 
 
 `@script`
-
+Let's interpret the dendrogram. 
+The dendrogram shows words that are frequently appearing together. For example, words like bought, soft, material, and comfort are used together indicating that people who bought spoke about the softness and comfort attributes of the material
 
 
 ---
