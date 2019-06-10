@@ -172,7 +172,9 @@ Concepts to understand words that frequently occur together
 
 
 `@script`
-
+In this lesson, we have made use of two concepts to understand words that frequently occur together
+The first one is using word distances / proximity, and thereby clustering to plot word sets that are close to each other
+The second concept is using correlation between word pairs and mapping the correlations in a scatter plot to understand how word pairs are associated with each other.
 
 
 ---
