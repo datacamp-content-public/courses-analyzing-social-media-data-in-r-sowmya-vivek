@@ -77,7 +77,7 @@ key: "8098dba05a"
 ```
 
 `@part1`
-![](https://assets.datacamp.com/production/repositories/5093/datasets/c5de85a6e4d3ab839a1dd8c12dd72d74fb9e70c2/clusterden.png)
+![clusterden1.png](https://assets.datacamp.com/production/repositories/5093/datasets/fda5b5343d7e3d46777801698f260f11ccd26b6e/clusterden1.png)
 - Shows words that are frequently grouped together
 - “bought”, “soft”, “material” & “comfort” used together
 
