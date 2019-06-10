@@ -62,7 +62,9 @@ plot(hc)
 
 
 `@script`
-
+Let's understand the R coding. The first step is to treat the DTM for sparsity which removes empty cells in the DTM. However, we set a generous parameter value of 0.9 so that we capture the N-grams appearing less frequently in the DTM.
+The next step is to build a hierarchical cluster based on object distances in the DTM. For our use case, we use Euclidean distances and the 'Complete' linkage method for distance calculation. There are other distances like Manhattan distance and linkages like 'Average' and 'Ward's' method that can applied too.
+Finally, we plot a cluster dendrogram which is used for visualizing the cluster.
 
 
 ---
