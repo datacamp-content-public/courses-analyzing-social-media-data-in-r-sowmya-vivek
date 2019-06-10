@@ -32,12 +32,12 @@ key: "278bb36cff"
 - Cluster Dendrograms are useful for visualizing Word clusters {{1}}
 - Word clustering identifies word groups occurring together {{2}}
 - Based on word distances {{3}}
-- Groups words into related clusters {{4}}
-- Dimension reduction technique {{5}}
+- Dimension reduction technique {{4}}
 
 
 `@script`
-
+Cluster Dendrograms are useful for visualizing Word clusters. Word clustering is used to identify word groups used together, based on word distances. It is a
+Dimension reduction technique.
 
 
 ---
