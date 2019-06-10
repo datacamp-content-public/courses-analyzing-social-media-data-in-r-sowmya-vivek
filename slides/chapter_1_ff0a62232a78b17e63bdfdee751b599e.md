@@ -101,7 +101,9 @@ key: "2686e115d2"
 
 
 `@script`
-
+Word Association is a way of calculating the correlation between 2 words in a Document-Term Matrix or Term-Document Matrix. 
+It is another way of identifying words used together frequently. 
+Let’s check the correlation between various words and the word “fit” using Word Association plots.
 
 
 ---
