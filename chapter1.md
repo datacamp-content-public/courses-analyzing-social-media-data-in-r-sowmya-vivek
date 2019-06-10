@@ -57,7 +57,7 @@ xp: 50
 
 ---
 
-## Insert exercise title here
+## Cluster Dendrograms and Word Association plots
 
 ```yaml
 type: VideoExercise
