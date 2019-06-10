@@ -132,7 +132,10 @@ theme(axis.text.y = element_text(size=10))
 
 
 `@script`
-
+Let's understand the R code for creating a Word Association plot.
+The first step is to create an association vector for the word 'fit' in the DTM at a correlation threshold of 0.05 i.e. we are creating a correlation matrix for fit vs other words in the DTM where the correlation coefficient is higher than 0.05.
+Next, we convert this vector into a dataframe and include the other words along with their correlation coefficient.
+Finally, we plot a scatter plot using ggplot where y-axis has the word and x-axis has the corresponding correlation values.
 
 
 ---
