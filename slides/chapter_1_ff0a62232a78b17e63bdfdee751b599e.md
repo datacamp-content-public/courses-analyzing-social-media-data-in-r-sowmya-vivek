@@ -85,7 +85,7 @@ key: "8098dba05a"
 
 
 ---
-## Insert title here...
+## Word Association Plot
 
 ```yaml
 type: "FullSlide"
@@ -93,7 +93,9 @@ key: "2686e115d2"
 ```
 
 `@part1`
-
+- Calculates correlation between 2 words in a DTM {{1}}
+- Another way of identifying words used together frequently {{2}}
+- Let's check correlation between various words and the word “fit” {{3}}
 
 
 `@script`
