@@ -2,10 +2,19 @@ library(remotes)
 
 ##### Install specific package versions from CRAN #####
 
-# install_version("ggplot2", "3.0.0")
-# install_version("dplyr", "0.7.5")
-# install_version("tidyr", "0.8.1")
-# install_version("purrr", "0.2.5")
+install_version("rtweet", "0.6.9")
+install_version("httpuv", "1.5.1")
+install_version("quanteda", "1.5.0")
+install_version("plyr", "1.8.4")
+install_version("wordcloud", "2.6")
+install_version("ggplot2", "3.2.0")
+install_version("ggthemes", "4.2.0")
+install_version("topicmodels", "0.2-8")
+install_version("syuzhet", "1.0.4")
+install_version("maps", "3.3.0")
+install_version("igraph", "1.2.4.1")
+
+
 
 ##### Install packages in development from GitHub #####
 
