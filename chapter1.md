@@ -88,6 +88,9 @@ xp: 100
 
 `@pre_exercise_code`
 ```{r}
+# Load the library rtweet
+library(rtweet)
+
 # Load dataset with tweets on "Artificial Intelligence"
 AI_tweet = readRDS("AI_api.rds")
 ```
