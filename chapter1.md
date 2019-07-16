@@ -67,3 +67,52 @@ xp: 50
 
 `@projector_key`
 ff0a62232a78b17e63bdfdee751b599e
+
+---
+
+## Time Series Plots
+
+```yaml
+type: NormalExercise
+key: 7a53b4247e
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+# Load dataset with tweets on "Artificial Intelligence"
+AI_tweet = readRDS("AI_api.rds")
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+# Load dataset containing Rihanna's tweets
+rih_tweet = readRDS("rihanna_namesearch.rds")
+
+# Convert tweets data into time series-like data object
+ts_data(rih_tweet)
+
+# Plot tweets data over time
+ts_plot(rih_tweet, "months", col="blue")
+
+# Plot tweets data over time
+ts_plot(AI_tweet, "hours", col="red")
+```
+
+`@sct`
+```{r}
+
+```
