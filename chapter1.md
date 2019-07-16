@@ -94,12 +94,12 @@ Finally, plot the time series for "AI_tweet" dataset using `ts_plot` and for hou
 
 `@instructions`
 - Convert 'rih_tweet' into a time series data object using `ts_data` function.
-- Create a Time Series plot using `ts_plot` function with interval set to `"months"`. 
-- Create a Time Series plot for 'AI_tweet' using `ts_plot` with `"hours"` as time interval.
+- Create a time series plot using `ts_plot` function with interval set to `"months"`. 
+- Create a time series plot for 'AI_tweet' using `ts_plot` with `"hours"` as time interval.
 
 `@hint`
 - Use `ts_data` to convert tweet data to a time series like data object.
-- Use `ts_plot` to create the Time Series plots.
+- Use `ts_plot` to create the time series plots.
 - The argument for time interval `"months"` or `"hours"` should be inside double quotes as shown here.
 
 `@pre_exercise_code`
