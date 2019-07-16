@@ -94,7 +94,17 @@ AI_tweet = readRDS("AI_api.rds")
 
 `@sample_code`
 ```{r}
+# Load dataset containing Rihanna's tweets
+rih_tweet = readRDS("rihanna_namesearch.rds")
 
+# Convert tweets data into time series-like data object
+_______(rih_tweet)
+
+# Plot tweets data over time - monthly
+_______(rih_tweet, _______, col="blue")
+
+# Plot tweets data over time - hourly
+_______(AI_tweet, _______, col="red")
 ```
 
 `@solution`
@@ -105,10 +115,10 @@ rih_tweet = readRDS("rihanna_namesearch.rds")
 # Convert tweets data into time series-like data object
 ts_data(rih_tweet)
 
-# Plot tweets data over time
+# Plot tweets data over time - monthly
 ts_plot(rih_tweet, "months", col="blue")
 
-# Plot tweets data over time
+# Plot tweets data over time - hourly
 ts_plot(AI_tweet, "hours", col="red")
 ```
 
