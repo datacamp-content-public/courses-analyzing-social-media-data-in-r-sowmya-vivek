@@ -82,7 +82,7 @@ Time series data is used to analyze how data  changes over time. In twitter anal
 	1. Tweets posted by a famous personality (Rihanna)
 	2. Tweets on a specific topic (Artificial Intelligence)
 
-The library
+The library "rtweet" and the dataset containing tweets for the 2 use cases have been pre-loaded
 
 `@instructions`
 
