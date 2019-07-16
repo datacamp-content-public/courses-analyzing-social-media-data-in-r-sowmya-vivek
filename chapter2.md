@@ -3,7 +3,7 @@ title: 'Chapter 2 - Analysis of Twitter Data '
 description: ""
 ---
 
-## Copy of Time Series Plots
+## Time Series Plots
 
 ```yaml
 type: NormalExercise
