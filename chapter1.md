@@ -97,7 +97,9 @@ Finally, you will plot the time series for AI using ts_plot and for hourly inter
 - Create a Time Series plot for 'AI_tweet' using `ts_plot` with `"hours"` as time interval.
 
 `@hint`
-
+- Use `ts_data` to convert tweet data to a time series like data object.
+- Use `ts_plot` to create the Time Series plots.
+- The argument for time interval `"months"` or `"hours"` should be inside double quotes.
 
 `@pre_exercise_code`
 ```{r}
