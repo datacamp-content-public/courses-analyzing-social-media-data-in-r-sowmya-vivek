@@ -78,7 +78,11 @@ key: 7a53b4247e
 xp: 100
 ```
 
+Time series data is used to analyze how data  changes over time. In twitter analysis, visualizing time series data could give useful insights about how the number of tweets by a person or a specific topic vary over time.  In this exercise, you will visualize how the following vary over monthly and hourly time intervals:
+	1. Tweets posted by a famous personality (Rihanna)
+	2. Tweets on a specific topic (Artificial Intelligence)
 
+The library
 
 `@instructions`
 
