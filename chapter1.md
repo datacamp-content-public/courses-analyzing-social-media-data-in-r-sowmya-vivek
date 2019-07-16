@@ -81,8 +81,9 @@ xp: 100
 Time series data is used to analyze how data changes over time. Visualizing time series of tweets gives useful insights about how the number of tweets vary over time.
 
 In this exercise, you will visualize how the following vary over different time intervals:
-	1. Tweets by a famous personality, Rihanna (rih_tweet)
-    1. Tweets on a specific topic, Artificial Intelligence (AI_tweet)
+
+1. Tweets by a famous personality, Rihanna (rih_tweet)
+2. Tweets on a specific topic, Artificial Intelligence (AI_tweet)
 
 The library "rtweet" and datasets containing extracted tweets for the two use cases have been pre-loaded.
 
