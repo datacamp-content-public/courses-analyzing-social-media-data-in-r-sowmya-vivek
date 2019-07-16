@@ -78,16 +78,17 @@ key: 7a53b4247e
 xp: 100
 ```
 
-Time series data is used to analyze how data  changes over time. Visualizing time series gives useful insights about how the number of tweets vary over time.
+Time series data is used to analyze how data changes over time. Visualizing time series of tweets gives useful insights about how the number of tweets vary over time.
 
 In this exercise, you will visualize how the following vary over different time intervals:
-	1. Tweets by famous personality (Rihanna) - rih_tweet
+	1. Tweets by a famous personality (Rihanna) - rih_tweet
 	2. Tweets on specific topic (Artificial Intelligence) - AI_tweet
 
-The library "rtweet" and dataset containing tweets for the 2 use cases have been pre-loaded.
+The library "rtweet" and dataset containing extracted tweets for the two use cases have been pre-loaded.
 
 For Rihanna, you will create a dataframe containing frequency of tweets over time using ts_data function.
 You will then plot the time series using ts_plot function, setting the intervals to monthly.
+Finally, you will plot the time series for AI using ts_plot and for hourly intervals.
 
 `@instructions`
 
