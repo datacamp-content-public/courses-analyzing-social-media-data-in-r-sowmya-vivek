@@ -64,10 +64,7 @@ _______(AI_tweet, _______, col="red")
 
 `@solution`
 ```{r}
-# Load dataset containing Rihanna's tweets
-rih_tweet = readRDS("rihanna_namesearch.rds")
-
-# Convert tweets data into time series-like data object
+# Convert rih_tweet data into time series data object
 ts_data(rih_tweet)
 
 # Plot tweets data over time - monthly
