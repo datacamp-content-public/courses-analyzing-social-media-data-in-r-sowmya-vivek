@@ -49,10 +49,7 @@ AI_tweet = readRDS("https://assets.datacamp.com/production/repositories/5093/dat
 
 `@sample_code`
 ```{r}
-# Load dataset containing Rihanna's tweets
-rih_tweet = readRDS("rihanna_namesearch.rds")
-
-# Convert tweets data into time series-like data object
+# Convert rih_tweet data into time series data object
 _______(rih_tweet)
 
 # Plot tweets data over time - monthly
