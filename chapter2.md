@@ -18,7 +18,7 @@ In this exercise, you will visualize how the following vary over different time 
 1. Tweets by a famous personality, Rihanna (rih_tweet)
 2. Tweets on a specific topic, Artificial Intelligence (AI_tweet)
 
-The library "rtweet" and datasets containing extracted tweets for the two use cases have been pre-loaded.
+The library `rtweet` and datasets containing extracted tweets for the two use cases have been pre-loaded.
 
 For Rihanna, you will create a dataframe containing frequency of tweets over time using `ts_data` function.
 You will then plot the time series using `ts_plot` function, setting the intervals to monthly.
