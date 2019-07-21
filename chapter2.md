@@ -40,6 +40,9 @@ Finally, plot the time series for `AI_tweet` dataset using `ts_plot` and for hou
 # Load the library rtweet
 library(rtweet)
 
+# Load dataset with tweets by "Rihanna"
+rih_tweet = readRDS("https://assets.datacamp.com/production/repositories/5093/datasets/313935620d786b6f3acb93633e4cfb804fb92d01/rihanna_namesearch.rds")
+
 # Load dataset with tweets on "Artificial Intelligence"
 AI_tweet = readRDS("https://assets.datacamp.com/production/repositories/5093/datasets/5afff3364029c063d2bbc9f78eb181193703856f/AI_api.rds")
 ```
