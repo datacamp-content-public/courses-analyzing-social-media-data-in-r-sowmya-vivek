@@ -73,6 +73,6 @@ ts_plot(AI_tweet, "hours", col="red")
 
 `@sct`
 ```{r}
-success_msg(Nice work! Time series plots for a topic or user tweets gives a quick visualisation of the frequency and relevance of tweets over a given period of time., praise = FALSE)
+success_msg(Congratulations! You have learnt how time series plots of tweets give a quick visualisation of the frequency of tweets over time. Head over to the next chapter to explore tweet text & identify popular topics, praise = FALSE)
 
 ```
