@@ -47,13 +47,13 @@ AI_tweet = readRDS("https://assets.datacamp.com/production/repositories/5093/dat
 `@sample_code`
 ```{r}
 # Convert rih_tweet data into time series data object
-_______(rih_tweet)
+___(rih_tweet)
 
 # Plot tweets data over time - monthly
-_______(rih_tweet, _______, col="blue")
+___(rih_tweet, ___, col="blue")
 
 # Plot tweets data for AI_tweet over time - hourly
-_______(AI_tweet, _______, col="red")
+___(AI_tweet, ___, col="red")
 ```
 
 `@solution`
