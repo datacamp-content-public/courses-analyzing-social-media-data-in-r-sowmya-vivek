@@ -15,19 +15,19 @@ Time series data is used to analyze how data changes over time. You will use tim
 
 In this exercise, you will create time series plots for:
 
-1. Tweets by a famous personality, Rihanna (rih_tweet)
-2. Tweets on a specific topic, Artificial Intelligence (AI_tweet)
+1. Tweets by a famous personality, Rihanna (`rih_tweet`)
+2. Tweets on a specific topic, Artificial Intelligence (`AI_tweet`)
 
-The package `rtweet` and datasets containing extracted tweets for the two use cases have been pre-loaded.
+The package `rtweet` and datasets containing extracted tweets for the two use cases have been pre-loaded. You will be using the functions `ts_data` and `ts_plot` in this exercise.
 
 For Rihanna you will identify if there is a specific month when she has tweeted more. For tweets on AI, you will visualize how many people have tweeted on AI in the last few hours.
 
 
 
 `@instructions`
-- Convert `rih_tweet` into a time series data object using `ts_data` function.
-- Create a time series plot using `ts_plot` function with interval set to `"months"`. 
-- Create a time series plot for `AI_tweet` using `ts_plot` with `"hours"` as time interval.
+- For Rihanna, you will create a dataframe containing frequency of tweets over time using `ts_data` function.
+- You will then plot the time series using `ts_plot` function, setting the intervals to monthly.
+- Finally, plot the time series for `AI_tweet` dataset using `ts_plot` and for hourly intervals.
 
 `@hint`
 - Use `ts_data` to convert tweet data to a time series like data object.
