@@ -25,7 +25,7 @@ For Rihanna you will identify if there is a specific month when she has tweeted 
 
 
 `@instructions`
-- For `rih_tweet`, create a dataframe containing frequency of tweets over time using `ts_data` function.
+- For `rih_tweet`, create a data frame containing frequency of tweets over time using `ts_data` function.
 - Use `ts_plot` function to create a time series plot, setting the intervals to monthly.
 - Plot the time series for `AI_tweet` dataset for hourly intervals.
 
