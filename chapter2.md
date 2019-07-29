@@ -22,8 +22,6 @@ The package `rtweet` and datasets containing extracted tweets for the two use ca
 
 For Rihanna you will identify if there is a specific month when she has tweeted more. For tweets on AI, you will visualize how many people have tweeted on AI in the last few hours.
 
-
-
 `@instructions`
 - For `rih_tweet`, create a time series data object containing frequency of tweets over time using `ts_data` function.
 - Use `ts_plot` function to create a time series plot, setting the intervals to monthly.
